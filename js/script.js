@@ -19,6 +19,22 @@ for (var i = 1; i < elements.length; i++) {
     });
 }
 
+document.addEventListener('click', function(e) {
+    let result = false
+    let el = document.getElementById('header-menu')
+    if (e.target === el) {
+        result = true
+    }
+    for (var i = 0; i < elements.length; i++) {
+        if (e.target === elements[i]) {
+            result = true
+        }
+    }
+    if (!result) {
+        el.classList.remove('active')
+    }
+})
+
 document.getElementById('content').addEventListener('click', function() {
     if (this.classList.contains('active')) {
         this.classList.remove('active')
@@ -26,3 +42,14 @@ document.getElementById('content').addEventListener('click', function() {
         this.classList.add('active')
     }
 });
+
+var elements1 = document.getElementsByClassName('to-content');
+
+for (var i = 0; i < elements1.length; i++) {
+    elements1[i].addEventListener('click', function() {
+        if (!document.getElementById('content').classList.contains('active')) {
+            document.getElementById('content').classList.add('active')
+        }
+        document.getElementById('content').scrollIntoView({behavior: 'smooth'})
+    });
+}
