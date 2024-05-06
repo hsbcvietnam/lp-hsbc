@@ -323,18 +323,31 @@ body {
     font-size: 16px;
     text-decoration: none;
     color: #000000;
-    margin-bottom: 5px;
-    line-height: 1.5em;
-    padding-right: 20px;
+    margin-bottom: 10px;
+    line-height: 1em;
+    /* padding-right: 20px; */
+    display: inline-block;
 }
 
-.content .gray-container .white-box .right-col a::after {
+/* .content .gray-container .white-box .right-col a::after {
     content: '';
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     width: 10px;
+    background-image: url(../image/arrow.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+
+.content .gray-container .white-box .right-col .arrow {
+    display: inline-block;
+    margin-left: 10px;
+    padding-top: 8px;
+    width: 10px;
+    height: 16px;
     background-image: url(../image/arrow.png);
     background-position: center center;
     background-repeat: no-repeat;
