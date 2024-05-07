@@ -251,11 +251,11 @@ body {
 
 .content .gray-container .white-box .middle-col .title {
     font-family: 'HSBC-Bold';
-    font-size: 30px;
+    font-size: 24px;
     line-height: 1em;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     font-weight: 500;
-    color: #db0011;
+    color: #000000;
 }
 
 .content .gray-container .white-box .middle-col .description {
@@ -270,7 +270,7 @@ body {
     font-family: 'HSBC-Medium';
     font-size: 18px;
     font-weight: 600;
-    color: #db0011;
+    color: #000000;
     margin-bottom: 10px;
 }
 
@@ -321,7 +321,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-top: calc(53px + 5vh);
+    margin-top: calc(57px + 5vh);
     margin-left: 2.5vw;
     padding-left: 2.5vw;
     border-left: 1px solid #b8b8b8;
@@ -331,7 +331,7 @@ body {
     font-family: 'HSBC-Medium';
     font-size: 18px;
     font-weight: 600;
-    color: #db0011;
+    color: #000000;
     margin-bottom: 10px;
 }
 
@@ -344,6 +344,7 @@ body {
     font-family: 'HSBC-Medium';
     font-size: 18px;
     font-weight: 400;
+    color: #db0011;
 }
 
 .content .gray-container .white-box .right-col .list-item sup {
