@@ -294,6 +294,10 @@ body {
     font-weight: 400;
 }
 
+.content .gray-container .white-box .middle-col .list .list-item sup {
+    font-size: 12px;
+}
+
 .content .gray-container .white-box .middle-col .list .list-item::before {
     content: '·';
     position: absolute;
@@ -336,6 +340,10 @@ body {
     font-weight: 600;
     color: #000000;
     margin-bottom: 10px;
+}
+
+.content .gray-container .white-box .right-col .title sup {
+    font-size: 12px;
 }
 
 .content .gray-container .white-box .right-col .list-item {
