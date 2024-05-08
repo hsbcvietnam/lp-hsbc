@@ -146,7 +146,7 @@ body {
 }
 
 .kv-area .text-box {
-    width: 37.5vw;
+    width: 33%;
     margin-left: 2.5vw;
     background-color: #FFFFFF;
     padding: 2.5vw;
@@ -159,6 +159,7 @@ body {
 .kv-area .text-box .title {
     font-size: 36px;
     margin-bottom: 0.75em;
+    font-weight: 400;
 }
 
 .kv-area .text-box .text {
@@ -184,6 +185,7 @@ body {
     line-height: 0.8em;
     padding-left: 30px;
     margin-bottom: 1em;
+    font-weight: 400;
 }
 
 .content > .section-title::before {
@@ -364,6 +366,10 @@ body {
     cursor: pointer;
 }
 
+.content .gray-container .white-box .right-col a sup {
+    font-size: 12px;
+}
+
 /* .content .gray-container .white-box .right-col a::after {
     content: '';
     position: absolute;
@@ -413,6 +419,7 @@ body {
 .content > .container > .title {
     font-family: 'HSBC-Medium';
     font-size: 18px;
+    font-weight: 500;
     padding-left: 30px;
     margin-bottom: 15px;
 }
@@ -457,7 +464,7 @@ body {
     padding-left: calc(40px + (0.75 * 18px));
     font-size: 18px;
     font-family: 'HSBC-Regular';
-    color: #db0011;
+    /* color: #db0011; */
     font-weight: 700;
     margin-top: 10px;
     margin-bottom: 10px;
