@@ -339,7 +339,7 @@ body {
 
 .content .gray-container .white-box .right-col .list-item {
     font-size: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .content .gray-container .white-box .right-col .list-item strong {
@@ -474,9 +474,10 @@ body {
     color: #000000;
     text-decoration: none;
     padding-right: 20px;
+    display: inline-block;
 }
 
-.content > .list .list-item a::after {
+/* .content > .list .list-item a::after {
     content: '';
     position: absolute;
     top: 0;
@@ -485,6 +486,18 @@ body {
     width: 7px;
     background-image: url(../image/arrow.png);
     background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+
+.content > .list .list-item a .arrow {
+    display: inline-block;
+    margin-left: 10px;
+    padding-top: 8px;
+    width: 7px;
+    height: 16px;
+    background-image: url(../image/arrow.png);
+    background-position: bottom center;
     background-repeat: no-repeat;
     background-size: contain;
 }

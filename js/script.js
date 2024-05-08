@@ -1,8 +1,10 @@
 document.getElementById('header-menu').addEventListener('click', function() {
-    if (this.classList.contains('active')) {
-        this.classList.remove('active')
+    console.log('click')
+    let el = document.getElementById('header-menu')
+    if (el.classList.contains('active')) {
+        el.classList.remove('active')
     } else {
-        this.classList.add('active')
+        el.classList.add('active')
     }
 });
 
@@ -22,7 +24,9 @@ for (var i = 1; i < elements.length; i++) {
 document.addEventListener('click', function(e) {
     let result = false
     let el = document.getElementById('header-menu')
-    if (e.target === el) {
+    let el1 = document.getElementById('open')
+    let el2 = document.getElementById('close')
+    if ((e.target === el) || (e.target === el1) || (e.target === el2)) {
         result = true
     }
     for (var i = 0; i < elements.length; i++) {
