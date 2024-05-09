@@ -246,13 +246,23 @@ body {
     background-image: url(../image/card-travel.png);
 }
 
+.content .gray-container .white-box .mid-right-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.content .gray-container .white-box .mid-right-container .inner-container {
+    display: flex;
+    flex-direction: row;
+}
+
 .content .gray-container .white-box .middle-col {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.content .gray-container .white-box .middle-col .title {
+.content .gray-container .white-box .title {
     font-family: 'HSBC-Bold';
     font-size: 24px;
     line-height: 1em;
@@ -261,7 +271,7 @@ body {
     color: #000000;
 }
 
-.content .gray-container .white-box .middle-col .description {
+.content .gray-container .white-box .description {
     font-family: 'HSBC-Medium';
     font-size: 18px;
     line-height: 1em;
@@ -328,7 +338,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-top: calc(57px + 5vh);
+    /* margin-top: calc(57px + 5vh); */
     margin-left: 2.5vw;
     padding-left: 2.5vw;
     border-left: 1px solid #b8b8b8;
