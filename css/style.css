@@ -393,8 +393,8 @@ body {
 .content .gray-container .white-box .right-col .list-item strong {
     font-family: 'HSBC-Medium';
     font-size: 18px;
-    font-weight: 400;
-    color: #db0011;
+    font-weight: 500;
+    /* color: #db0011; */
 }
 
 .content .gray-container .white-box .right-col .list-item sup {
