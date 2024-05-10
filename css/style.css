@@ -693,7 +693,7 @@ body {
     }
 
     .content .gray-container .white-box:not(:last-child) {
-        margin-bottom: 5vw;
+        margin-bottom: 7.5vw;
     }
 
     .content .gray-container .white-box .only-mobile {
@@ -836,7 +836,7 @@ body {
     }
 
     .footer {
-        margin-top: 7.5vw;
+        margin-top: 12.5vw;
         flex-direction: column;
         padding: 5vw;
     }
