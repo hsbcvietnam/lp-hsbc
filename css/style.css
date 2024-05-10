@@ -222,7 +222,7 @@ body {
 }
 
 .content .gray-container .white-box:not(:last-child) {
-    margin-bottom: 10vh;
+    margin-bottom: 6vh;
 }
 
 .content .gray-container .white-box .card-img {
@@ -354,7 +354,7 @@ body {
     font-weight: 600;
     color: #000000;
     margin-bottom: 10px;
-    padding-left: 30px;
+    padding-left: 32px;
 }
 
 .content .gray-container .white-box .right-col .title::before {
@@ -385,7 +385,7 @@ body {
     position: absolute;
     top: 0px;
     left: 0px;
-    font-family: HSBC-Medium;
+    font-family: 'HSBC-Medium';
     font-size: 18px;
     font-weight: 700;
 }
@@ -408,18 +408,18 @@ body {
 }
 
 .content .gray-container .white-box .right-col a, .content .gray-container .white-box .right-col .to-content {
-    font-size: 16px;
+    font-size: 14px;
     text-decoration: none;
     color: #000000;
     margin-bottom: 10px;
-    line-height: 1em;
+    line-height: 1.3em;
     /* padding-right: 20px; */
     display: inline-block;
     cursor: pointer;
 }
 
 .content .gray-container .white-box .right-col a sup {
-    font-size: 12px;
+    font-size: 11px;
 }
 
 /* .content .gray-container .white-box .right-col a::after {
@@ -440,7 +440,7 @@ body {
     margin-left: 10px;
     padding-top: 8px;
     width: 7px;
-    height: 16px;
+    height: 14px;
     background-image: url(../image/arrow.png);
     background-position: bottom center;
     background-repeat: no-repeat;
@@ -528,6 +528,7 @@ body {
     padding-right: 20px;
     font-size: 18px;
     display: inline-block;
+    font-weight: 700;
 }
 
 /* .content > .list .list-item a::after {
@@ -660,7 +661,7 @@ body {
 
     .kv-area .text-box {
         width: 90%;
-        padding: 5vw 0 5vw 0;
+        padding: 5vw 0 7.5vw 0;
         margin-left: 5%;
         border-bottom: 1px solid #dddddd;
     }
@@ -671,7 +672,7 @@ body {
 
     .content {
         width: 100vw;
-        margin-top: 5vw;
+        margin-top: 7.5vw;
     }
 
     .content > .section-title {
@@ -783,6 +784,18 @@ body {
         margin-bottom: 0;
     }
 
+    #content .section-title {
+        padding-right: 20px;
+    }
+
+    .content .open, .content .close {
+        position: absolute;
+        width: fit-content;
+        height: fit-content;
+        top: 0.6em;
+        right: 0;
+    }
+
     .content.active > .container {
         width: 90%;
         margin-left: 5%;
@@ -823,7 +836,7 @@ body {
     }
 
     .footer {
-        margin-top: 5vw;
+        margin-top: 7.5vw;
         flex-direction: column;
         padding: 5vw;
     }
