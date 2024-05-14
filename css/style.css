@@ -4,8 +4,18 @@
 }
 
 @font-face {
+    font-family: 'HSBC-Light-IE';
+    src: url(./fonts/UniversNextforHSBC-Light.eot);
+}
+
+@font-face {
     font-family: 'HSBC-Regular';
     src: url(./fonts/UniversNextforHSBC-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'HSBC-Regular-IE';
+    src: url(./fonts/UniversNextforHSBC-Regular.eot);
 }
 
 @font-face {
@@ -14,8 +24,18 @@
 }
 
 @font-face {
+    font-family: 'HSBC-Medium-IE';
+    src: url(./fonts/UniversNextforHSBC-Medium.eot);
+}
+
+@font-face {
     font-family: 'HSBC-Bold';
     src: url(./fonts/UniversNextforHSBC-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'HSBC-Bold-IE';
+    src: url(./fonts/UniversNextforHSBC-Bold.eot);
 }
 
 *, *::before, *::after {
@@ -26,7 +46,7 @@
     font-size: 20px;
     scrollbar-width: none;
     -ms-overflow-style: none;
-    font-family: 'HSBC-Light';
+    font-family: 'HSBC-Light', 'HSBC-Light-IE';
 }
 
 ::-webkit-scrollbar {
@@ -75,7 +95,7 @@ body {
 
 .header .lang a {
     font-size: 16px;
-    font-family: 'HSBC-Bold';
+    font-family: 'HSBC-Bold', 'HSBC-Bold-IE';
     color: #000000;
     text-decoration: none;
     margin-right: 1em;
@@ -161,12 +181,14 @@ body {
 }
 
 .kv-area .text-box .title {
+    width: 100%;
     font-size: 36px;
     margin-bottom: 0.75em;
     font-weight: 400;
 }
 
 .kv-area .text-box .text {
+    width: 100%;
     font-size: 18px;
 }
 
@@ -184,7 +206,7 @@ body {
 }
 
 .content > .section-title {
-    font-family: 'HSBC-Regular';
+    font-family: 'HSBC-Regular', 'HSBC-Regular-IE';
     font-size: 30px;
     line-height: 1.2em;
     padding-left: 30px;
@@ -251,23 +273,26 @@ body {
 }
 
 .content .gray-container .white-box .mid-right-container {
+    width: calc(100% - 20vw);
     display: flex;
     flex-direction: column;
 }
 
 .content .gray-container .white-box .mid-right-container .inner-container {
+    width: 100%;
     display: flex;
     flex-direction: row;
 }
 
 .content .gray-container .white-box .middle-col {
+    width: calc(100% - 25vw);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
 .content .gray-container .white-box .title {
-    font-family: 'HSBC-Bold';
+    font-family: 'HSBC-Bold', 'HSBC-Bold-IE';
     font-size: 24px;
     line-height: 1em;
     margin-bottom: 15px;
@@ -276,7 +301,7 @@ body {
 }
 
 .content .gray-container .white-box .description {
-    font-family: 'HSBC-Medium';
+    font-family: 'HSBC-Medium', 'HSBC-Medium-IE';
     font-size: 18px;
     line-height: 1em;
     font-weight: 500;
@@ -284,7 +309,7 @@ body {
 }
 
 .content .gray-container .white-box .middle-col .small-title {
-    font-family: 'HSBC-Medium';
+    font-family: 'HSBC-Medium', 'HSBC-Medium-IE';
     font-size: 18px;
     font-weight: 600;
     color: #000000;
@@ -292,6 +317,7 @@ body {
 }
 
 .content .gray-container .white-box .middle-col .list {
+    width: 100%;
     list-style-type: none;
     margin-bottom: 25px;
 }
@@ -303,7 +329,7 @@ body {
 }
 
 .content .gray-container .white-box .middle-col .list .list-item strong {
-    font-family: 'HSBC-Medium';
+    font-family: 'HSBC-Medium', 'HSBC-Medium-IE';
     font-size: 18px;
     font-weight: 400;
 }
@@ -317,7 +343,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    font-family: 'HSBC-Medium';
+    font-family: 'HSBC-Medium', 'HSBC-Medium-IE';
     font-weight: 700;
 }
 
@@ -331,7 +357,7 @@ body {
     font-size: 18px;
     padding: 0.6em 1.75em;
     border-radius: 0.3em;
-    font-family: 'HSBC-Medium';
+    font-family: 'HSBC-Medium', 'HSBC-Medium-IE';
     text-decoration: none;
     color: #FFFFFF;
 }
@@ -349,7 +375,7 @@ body {
 }
 
 .content .gray-container .white-box .right-col .title {
-    font-family: 'HSBC-Medium';
+    font-family: 'HSBC-Medium', 'HSBC-Medium-IE';
     font-size: 18px;
     font-weight: 600;
     color: #000000;
@@ -375,6 +401,7 @@ body {
 }
 
 .content .gray-container .white-box .right-col .list-item {
+    width: 100%;
     font-size: 18px;
     margin-bottom: 50px;
     padding-left: 0.75em;
@@ -385,7 +412,7 @@ body {
     position: absolute;
     top: 0px;
     left: 0px;
-    font-family: 'HSBC-Medium';
+    font-family: 'HSBC-Medium', 'HSBC-Medium-IE';
     font-size: 18px;
     font-weight: 700;
 }
@@ -395,14 +422,14 @@ body {
 }
 
 .content .gray-container .white-box .right-col .list-item strong {
-    font-family: 'HSBC-Medium';
+    font-family: 'HSBC-Medium', 'HSBC-Medium-IE';
     font-size: 18px;
     font-weight: 500;
     /* color: #db0011; */
 }
 
 .content .gray-container .white-box .right-col .list-item sup {
-    font-family: 'HSBC-Medium';
+    font-family: 'HSBC-Medium', 'HSBC-Medium-IE';
     font-size: 14px;
     font-weight: 400;
 }
@@ -469,7 +496,7 @@ body {
 }
 
 .content > .container > .title {
-    font-family: 'HSBC-Medium';
+    font-family: 'HSBC-Medium', 'HSBC-Medium-IE';
     font-size: 18px;
     font-weight: 500;
     padding-left: 30px;
@@ -495,7 +522,7 @@ body {
 
 .content > .container > .list .list-item strong {
     font-size: 18px;
-    font-family: 'HSBC-Medium';
+    font-family: 'HSBC-Medium', 'HSBC-Medium-IE';
     font-weight: 500;
 }
 
@@ -504,7 +531,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    font-family: 'HSBC-Medium';
+    font-family: 'HSBC-Medium', 'HSBC-Medium-IE';
     font-weight: 700;
 }
 
@@ -515,7 +542,7 @@ body {
 .content > .container > .small-title {
     padding-left: calc(40px + (0.75 * 18px));
     font-size: 18px;
-    font-family: 'HSBC-Regular';
+    font-family: 'HSBC-Regular', 'HSBC-Regular-IE';
     /* color: #db0011; */
     font-weight: 700;
     margin-top: 10px;
@@ -729,7 +756,7 @@ body {
         font-size: 16px;
         padding: 0.6em 1.2em;
         border-radius: 0.3em;
-        font-family: 'HSBC-Medium';
+        font-family: 'HSBC-Medium', 'HSBC-Medium-IE';
         text-decoration: none;
         color: #FFFFFF;
     }
@@ -818,7 +845,7 @@ body {
     .content > .container > .small-title {
         padding-left: 5vw;
         font-size: 18px;
-        font-family: 'HSBC-Medium';
+        font-family: 'HSBC-Medium', 'HSBC-Medium-IE';
         font-weight: 500;
     }
 
