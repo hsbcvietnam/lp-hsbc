@@ -767,9 +767,17 @@ body {
         height: 40vw;
     }
 
+    .content .gray-container .white-box .mid-right-container {
+        width: unset;
+    }
+
     .content .gray-container .white-box .mid-right-container .inner-container {
         margin-top: 5vw;
         flex-direction: column;
+    }
+
+    .content .gray-container .white-box .middle-col {
+        width: unset;
     }
 
     .content .gray-container .white-box .middle-col .small-title {
@@ -835,6 +843,7 @@ body {
 
     .content > .list, .content > .container > .list {
         padding-left: 5vw;
+        padding-right: 5vw;
     }
 
     .content > .list .list-item::before, .content > .container > .list .list-item::before {
