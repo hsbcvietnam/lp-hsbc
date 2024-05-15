@@ -12,8 +12,8 @@ var elements = document.getElementsByClassName('header-item');
 const title = ['', 'card-online', 'card-cashback', 'card-livefree', 'card-travel']
 
 for (var i = 1; i < elements.length; i++) {
+    let el = document.getElementById(title[i])
     elements[i].addEventListener('click', function(e) {
-        let el = document.getElementById(title[i])
         el.scrollIntoView({behavior: 'smooth'})
         // window.scrollTo({
         //     top: el.getBoundingClientRect().top + window.scrollY - 80,
