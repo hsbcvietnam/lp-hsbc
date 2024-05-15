@@ -1,5 +1,4 @@
 document.getElementById('header-menu').addEventListener('click', function() {
-    console.log('click')
     let el = document.getElementById('header-menu')
     if (el.classList.contains('active')) {
         el.classList.remove('active')
@@ -10,14 +9,16 @@ document.getElementById('header-menu').addEventListener('click', function() {
 
 var elements = document.getElementsByClassName('header-item');
 
+const title = ['', 'card-online', 'card-cashback', 'card-livefree', 'card-travel']
+
 for (var i = 1; i < elements.length; i++) {
     elements[i].addEventListener('click', function(e) {
-        let el = document.getElementById(e.target.getAttribute('name'))
-        console.log(el.getBoundingClientRect().top)
-        window.scrollTo({
-            top: el.getBoundingClientRect().top + window.scrollY - 80,
-            behavior: 'smooth',
-        })
+        let el = document.getElementById(title[i])
+        el.scrollIntoView({behavior: 'smooth'})
+        // window.scrollTo({
+        //     top: el.getBoundingClientRect().top + window.scrollY - 80,
+        //     behavior: 'smooth',
+        // })
     });
 }
 
