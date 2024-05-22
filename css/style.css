@@ -244,7 +244,7 @@ body {
 }
 
 .content .gray-container .white-box .card-img {
-    flex-basis: calc((17.5 / 95) * 100%);
+    flex-basis: calc((22.5 / 95) * 100%);
     flex-shrink: 0;
     margin-right: 2.5%;
     background-position: top left;
@@ -269,7 +269,7 @@ body {
 }
 
 .content .gray-container .white-box .mid-right-container {
-    width: calc(100% - ((20 / 95) * 100%));
+    width: calc(100% - ((25 / 95) * 100%));
     display: flex;
     flex-direction: column;
 }
@@ -301,7 +301,7 @@ body {
     font-size: 18px;
     line-height: 1em;
     font-weight: 500;
-    margin-bottom: 5vh;
+    margin-bottom: 5%;
 }
 
 .content .gray-container .white-box .middle-col .small-title {
