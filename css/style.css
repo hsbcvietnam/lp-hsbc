@@ -164,9 +164,9 @@ body {
 
 .kv-area .text-box {
     width: 33%;
-    margin-left: 2.5vw;
+    margin-left: 2.5%;
     background-color: #FFFFFF;
-    padding: 2.5vw;
+    padding: 2.5%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
