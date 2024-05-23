@@ -559,8 +559,12 @@ body {
     text-decoration: none;
     padding-right: 20px;
     font-size: 18px !important;
-    display: inline-block;
+    /* display: inline-block; */
     font-weight: 700;
+}
+
+.content > .list .list-item a span {
+    display: inline-block;
 }
 
 /* .content > .list .list-item a::after {
