@@ -72,8 +72,8 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding-left: calc((100vw - 1240px) / 2);
-    padding-right: calc((100vw - 1240px) / 2);
+    /* padding-left: calc((100vw - 1240px) / 2);
+    padding-right: calc((100vw - 1240px) / 2); */
     z-index: 10;
 }
 
@@ -85,6 +85,7 @@ body {
     background-repeat: no-repeat;
     background-position: left center;
     background-size: contain;
+    margin-left: calc((100vw - 1240px) / 2);
 }
 
 .header .lang a {
@@ -106,6 +107,7 @@ body {
     align-items: center;
     margin-top: 10px;
     align-self: flex-start;
+    margin-right: calc((100vw - 1240px) / 2);
 }
 
 .header .header-menu .header-item {
@@ -666,8 +668,16 @@ body {
 /* Less than 1240px */
 @media screen and (max-width: 1240px) {
     .header, .content .gray-container, #content, .footer {
-        padding-left: 5vw;
-        padding-right: 5vw;
+        /* padding-left: 5vw;
+        padding-right: 5vw; */
+    }
+
+    .header .logo {
+        margin-left: 5%;
+    }
+
+    .header .header-menu {
+        margin-right: 5%;
     }
 
     .kv-area {
@@ -687,8 +697,37 @@ body {
         font-size: 16px;
     }
 
-    .content, .content .gray-container .white-box {
-        width: 90vw;
+    .content {
+        width: 100%;
+    }
+
+    .content .gray-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content .gray-container .white-box {
+        width: 90%;
+    }
+
+    .content > .section-title {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .content.active > .container, .content > .list {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .footer .left-col {
+        margin-left: 5%;
+    }
+
+    .footer .right-col {
+        margin-right: 5%;
     }
 }
 
@@ -965,6 +1004,7 @@ body {
         width: 100%;
         max-width: unset;
         flex-wrap: wrap;
+        margin-left: 0;
     }
 
     .footer .left-col > a {
@@ -977,6 +1017,7 @@ body {
 
     .footer .right-col {
         align-items: center;
+        margin-right: 0;
     }
 
     .footer .right-col > .text {
