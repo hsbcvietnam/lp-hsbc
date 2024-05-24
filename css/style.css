@@ -200,7 +200,7 @@ body {
 
 .content > .section-title {
     font-family: 'HSBC-Regular';
-    font-size: 30px;
+    font-size: 30px !important;
     line-height: 1.2em;
     padding-left: 30px;
     margin-bottom: 1em;
@@ -479,14 +479,20 @@ body {
 
 #content .section-title {
     cursor: pointer;
+    display: inline-flex;
+    align-items: center;
 }
 
-.content.active .close {
-    display: none;
+#content .close, #content .open {
+    display: block !important;
 }
 
-.content:not(.active) .open {
-    display: none;
+#content.active .close {
+    display: none !important;
+}
+
+#content:not(.active) .open {
+    display: none !important;
 }
 
 .content > .container {
@@ -564,7 +570,9 @@ body {
 }
 
 .content > .list .list-item a span {
-    display: inline-block;
+    display: inline-flex;
+    font-size: 1em !important;
+    align-items: center;
 }
 
 /* .content > .list .list-item a::after {
@@ -581,7 +589,7 @@ body {
 } */
 
 .content > .list .list-item a .arrow {
-    display: inline-block;
+    display: block;
     margin-left: 10px;
     padding-top: 8px;
     width: 7px;
@@ -700,7 +708,7 @@ body {
     }
 
     .content > .section-title {
-        font-size: 26px;
+        font-size: 26px !important;
     }
 }
 
@@ -771,7 +779,7 @@ body {
         margin-left: 5%;
         margin-right: 5%;
         padding-left: 20px;
-        font-size: 24px;
+        font-size: 24px !important;
         margin-bottom: 5vw;
     }
 
