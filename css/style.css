@@ -78,7 +78,7 @@ body {
 }
 
 .header .logo {
-    /* width: 70%; */
+    width: 25%;
     flex-grow: 10;
     height: 40px;
     background-image: url('../image/chs_hsbc_logo.png');
@@ -572,12 +572,6 @@ body {
     font-weight: 700;
 }
 
-.content > .list .list-item a span {
-    display: inline-flex;
-    font-size: 1em !important;
-    align-items: center;
-}
-
 /* .content > .list .list-item a::after {
     content: '';
     position: absolute;
@@ -592,7 +586,7 @@ body {
 } */
 
 .content > .list .list-item a .arrow {
-    display: block;
+    display: inline-block;
     margin-left: 10px;
     padding-top: 8px;
     width: 7px;
@@ -759,7 +753,7 @@ body {
     }
 
     .header {
-        padding: 0 5vw;
+        padding: 0;
         height: 60px;
     }
 
@@ -772,17 +766,17 @@ body {
     }
 
     .header .header-menu {
-        margin-top: 15px;
-        border-radius: 15px;
+        margin-top: 10px;
+        border-radius: 20px;
     }
 
     .header .header-menu .header-item {
         font-size: 14px;
-        min-height: 30px;
-        max-height: 30px;
+        min-height: 40px;
+        max-height: 40px;
         padding-left: 10px;
         padding-right: 10px;
-        padding-top: calc((30px - 1em) / 2);
+        padding-top: calc((40px - 1em) / 2);
     }
 
     .header .header-menu .header-item:last-child {
@@ -824,7 +818,7 @@ body {
     }
 
     .content .gray-container {
-        padding: 5vw;
+        padding: 5vw 0;
     }
 
     .content .gray-container .white-box {
